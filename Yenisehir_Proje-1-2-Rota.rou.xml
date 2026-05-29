@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-29 23:05:50 by Eclipse SUMO netedit-CBSGM Version 3984794750
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_BUSTYPE" vClass="bus"/>
+    <vType id="DEFAULT_COMMTYPE" vClass="delivery"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="c_0" type="DEFAULT_COMMTYPE" begin="0.00" from="-1106301524#0" to="-E24" via="E27 528941529#1 528941522#0 528941522#1 528941522#2 528941522#3 528941522#4 528941522#5 528941522#6 -528941516 -528941536#2 -528941536#1 -528941536#0 701604655 528941537#0 528941537#1 528941537#2 701604657#2 701604657#5 701604657#7 -1106301518#0" end="600.00" vehsPerHour="180"/>
+    <flow id="c_1" type="DEFAULT_COMMTYPE" begin="0.00" from="528941547#2" to="-528941547#2" via="528941547#4 528941547#5 528941547#12 903732622#1 903732622#2 903732622#6 1106301514#0 1106301514#1" end="600.00" vehsPerHour="180"/>
+</routes>
