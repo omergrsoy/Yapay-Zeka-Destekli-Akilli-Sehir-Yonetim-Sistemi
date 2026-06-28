@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-19 06:21:12 by Eclipse SUMO netedit-CBSGM Version 3984794750
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit-CBSGMConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\omer\Desktop\Masaustum\Projelerim\3.sinif_1.donem+2.donem_PROJE-1\SUMO-Netedit\Kirikkale_Yenisehir_Proje-1\Yenisehir_Proje-1-2.sumocfg"/>
+        <sumo-net-file value="C:\Users\omer\Desktop\Masaustum\Projelerim\3.sinif_1.donem+2.donem_PROJE-1\SUMO-Netedit\Kirikkale_Yenisehir_Proje-1\Yenisehir_Proje-1-2.net.xml"/>
+    </input>
+
+    <output>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="1"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<edges version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <location netOffset="-537548.15,-4411994.95" convBoundary="1146.19,0.00,3037.77,2062.04" origBoundary="33.439150,39.857101,33.474525,39.887464" projParameter="+proj=utm +zone=36 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <edge id="-1105900478" from="10119704925" to="5139072825" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900478"/>
+        </lane>
+    </edge>
+    <edge id="-1105900479#0" from="10123562110" to="5139072977" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2225.95,1836.98 2167.17,1842.03 2129.80,1840.45" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="-1105900479#1" from="10123562111" to="10123562110" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="-1105900479#2" from="10123562106" to="10123562111" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2336.19,1812.90 2297.60,1827.12 2248.02,1835.09 2239.02,1835.87" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="-1105900479#3" from="10119704929" to="10123562106" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="-1105900480#0" from="10119704929" to="5139072972" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2444.99,1772.79 2413.45,1690.98 2390.65,1647.15 2347.09,1585.03 2317.37,1542.35" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="-1105900480#1" from="10119704951" to="10119704929" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="-1105900480#2" from="10119704933" to="10119704951" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="-1105900484" from="10119704929" to="10119704949" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900484"/>
+        </lane>
+    </edge>
+    <edge id="-1105900485" from="10119704951" to="10119704950" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900485"/>
+        </lane>
+    </edge>
+    <edge id="-1105900487" from="cluster_5139072616_6588911164" to="5139072611" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1976.38,856.69 1950.01,869.55 1934.90,875.71 1912.44,875.87 1881.86,874.77" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900487"/>
+        </lane>
+        <param key="origFrom" value="6588911164"/>
+    </edge>
+    <edge id="-1106301514#0" from="10123562115" to="10119704951" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2248.93,1902.71 2344.01,1878.27 2423.20,1848.91 2467.97,1832.38" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301514"/>
+        </lane>
+    </edge>
+    <edge id="-1106301514#1" from="cluster_10123562128_5139072976" to="10123562115" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2129.63,1916.53 2248.93,1902.71" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301514"/>
+        </lane>
+        <param key="origFrom" value="5139072976"/>
+    </edge>
+    <edge id="-1106301515#0" from="10123562112" to="cluster_10123562116_5139072975" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2257.20,1958.57 2211.70,1968.12 2136.69,1977.91" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+        <param key="origTo" value="10123562116"/>
+    </edge>
+    <edge id="-1106301515#1" from="10119704933" to="10123562112" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2487.18,1882.21 2335.49,1943.08 2257.20,1958.57" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+    </edge>
+    <edge id="-1106301515#2" from="10123562119" to="10119704933" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+    </edge>
+    <edge id="-1106301516" from="cluster_10123562116_5139072975" to="10123562120" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2139.29,2000.42 2074.26,2004.29 1978.62,2005.56 1927.40,2013.45 1878.38,2030.01" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301516"/>
+        </lane>
+        <param key="origFrom" value="5139072975"/>
+    </edge>
+    <edge id="-1106301518#0" from="10119704925" to="10123562129" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1903.94,1806.55 1833.10,1825.66 1745.86,1854.25" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301518"/>
+        </lane>
+    </edge>
+    <edge id="-1106301518#1" from="5139072977" to="10119704925" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2129.80,1840.45 2091.45,1841.16 2009.05,1828.33 1938.74,1813.11 1903.94,1806.55" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301518"/>
+        </lane>
+    </edge>
+    <edge id="-1106301519#2" from="10123562137" to="10123562129" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301519"/>
+        </lane>
+    </edge>
+    <edge id="-1106301520#2" from="10123562140" to="10123562150" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301520"/>
+        </lane>
+    </edge>
+    <edge id="-1106301522#0" from="10123562140" to="1124809830" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1651.94,2062.04 1607.96,2033.05 1588.21,2022.64 1572.49,2018.01" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301522"/>
+        </lane>
+    </edge>
+    <edge id="-1106301524#0" from="10123562150" to="cluster_10123562149_10123562170" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1711.79,2002.00 1630.69,1900.80" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301524"/>
+        </lane>
+        <param key="origTo" value="10123562149"/>
+    </edge>
+    <edge id="-1106301525#0" from="cluster_10123562149_10123562170" to="10123562154" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1630.69,1900.80 1613.58,1904.55 1585.73,1904.70 1559.68,1904.26" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301525"/>
+        </lane>
+        <param key="origFrom" value="10123562149"/>
+    </edge>
+    <edge id="-1106301530#0" from="cluster_10123562177_10123562179" to="5139072979" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2242.72,1362.64 2216.20,1367.24 2173.04,1374.80" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+        <param key="origFrom" value="10123562177"/>
+    </edge>
+    <edge id="-1106301530#2" from="10123562172" to="cluster_10123562177_10123562179" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2312.58,1350.53 2252.67,1360.92" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+        <param key="origTo" value="10123562179"/>
+    </edge>
+    <edge id="-1106301530#3" from="10123562174" to="10123562172" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2391.88,1343.46 2361.07,1344.63 2312.58,1350.53" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+    </edge>
+    <edge id="-1106301531#0" from="10123562178" to="10123562175" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301531"/>
+        </lane>
+    </edge>
+    <edge id="-1106301531#1" from="10123562176" to="10123562178" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301531"/>
+        </lane>
+    </edge>
+    <edge id="-1106301532" from="10123562178" to="cluster_10123562177_10123562179" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2254.90,1433.15 2242.72,1362.64" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301532"/>
+        </lane>
+        <param key="origTo" value="10123562177"/>
+    </edge>
+    <edge id="-1106301533" from="10123562180" to="cluster_10123562177_10123562179" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2237.47,1254.85 2252.67,1360.92" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301533"/>
+        </lane>
+        <param key="origTo" value="10123562179"/>
+    </edge>
+    <edge id="-1106301534#0" from="10123562180" to="5139072980" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="-1106301534#1" from="10123562184" to="10123562180" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="-1106301534#2" from="10123562183" to="10123562184" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="-1106301534#3" from="10123562182" to="10123562183" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2348.12,1234.75 2308.11,1242.14 2293.74,1244.72" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="-1106301535" from="10123562172" to="10123562183" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301535"/>
+        </lane>
+    </edge>
+    <edge id="-1106301536" from="10123562185" to="10123562184" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301536"/>
+        </lane>
+    </edge>
+    <edge id="-1106301537#0" from="10123562185" to="10123562187" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2254.43,1140.54 2219.75,1144.78 2204.28,1144.47" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301537"/>
+        </lane>
+    </edge>
+    <edge id="-1106301537#1" from="10123562189" to="10123562185" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301537"/>
+        </lane>
+    </edge>
+    <edge id="-528941499#0" from="5139072608" to="5139072838" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941499"/>
+        </lane>
+        <param key="origFrom" value="5139072608"/>
+    </edge>
+    <edge id="-528941500#2" from="5139072614" to="cluster_5139072616_6588911164" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1942.18,904.04 1950.39,890.27 1961.39,870.55 1976.38,856.69" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941500"/>
+        </lane>
+        <param key="origTo" value="6588911164"/>
+    </edge>
+    <edge id="-528941500#3" from="5139072611" to="5139072614" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1881.86,874.77 1895.30,876.84 1918.63,887.94 1942.18,904.04" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941500"/>
+        </lane>
+    </edge>
+    <edge id="-528941501#0" from="5139072694" to="5139072622" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941501"/>
+        </lane>
+    </edge>
+    <edge id="-528941502#0" from="5139072626" to="5139072627" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="-528941502#1" from="5139072625" to="5139072626" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="-528941502#2" from="5139072686" to="5139072625" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2092.74,1197.36 2094.55,1206.22 2097.90,1224.06 2100.44,1282.26" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="-528941503" from="5139072653" to="5139072629" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1989.06,1577.05 2044.74,1566.51 2160.91,1561.00" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941503"/>
+        </lane>
+    </edge>
+    <edge id="-528941504#0" from="5139072670" to="5139072635" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1583.18,1258.19 1580.30,1281.49 1561.45,1335.32 1573.37,1365.97" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941504"/>
+        </lane>
+    </edge>
+    <edge id="-528941504#1" from="5139072715" to="5139072670" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1631.72,1207.84 1588.19,1243.94 1585.11,1250.26 1583.18,1258.19" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941504"/>
+        </lane>
+    </edge>
+    <edge id="-528941505#0" from="5139072654" to="5139072636" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941505"/>
+        </lane>
+    </edge>
+    <edge id="-528941505#1" from="5139072651" to="5139072654" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1801.01,1545.15 1810.56,1605.48 1811.00,1608.26" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941505"/>
+        </lane>
+    </edge>
+    <edge id="-528941507#0" from="5139072640" to="5139072641" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941507"/>
+        </lane>
+    </edge>
+    <edge id="-528941507#1" from="5139072828" to="5139072640" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941507"/>
+        </lane>
+    </edge>
+    <edge id="-528941508#2" from="5139072651" to="5139072640" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941508"/>
+        </lane>
+    </edge>
+    <edge id="-528941509#0" from="5139072644" to="5139072645" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941509"/>
+        </lane>
+    </edge>
+    <edge id="-528941509#1" from="cluster_5139072643_5139072852" to="5139072644" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1462.01,1544.41 1573.91,1501.88" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941509"/>
+        </lane>
+        <param key="origFrom" value="5139072643"/>
+    </edge>
+    <edge id="-528941510#1" from="5139072646" to="5139072647" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941510"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#0" from="5139072627" to="5139072652" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#1" from="5139072687" to="5139072627" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#2" from="5139072827" to="5139072687" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1866.43,1535.67 1946.01,1525.52 1981.89,1520.95" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#3" from="5139072651" to="5139072827" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1801.01,1545.15 1806.12,1544.46 1866.43,1535.67" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#4" from="5139072650" to="5139072651" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#5" from="5139072649" to="5139072650" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941511#6" from="5139072648" to="5139072649" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="-528941512#0" from="5139072688" to="5139072828" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="-528941512#1" from="5139072626" to="5139072688" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="-528941512#2" from="5139072979" to="5139072626" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="-528941513#0" from="5139072826" to="5139072653" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="-528941513#1" from="5139072654" to="5139072826" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="-528941513#2" from="5139072700" to="5139072654" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="-528941513#3" from="5139072656" to="5139072700" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="-528941513#4" from="1124809896" to="5139072656" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1522.39,1699.31 1535.74,1696.87 1641.54,1653.51" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="-528941515#0" from="5139072635" to="5139072702" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+    </edge>
+    <edge id="-528941515#1" from="5139072669" to="5139072635" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+    </edge>
+    <edge id="-528941515#2" from="cluster_10119705105_10119705107_1124809771" to="5139072669" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1415.64,1424.98 1520.00,1388.41" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+        <param key="origFrom" value="1124809771"/>
+    </edge>
+    <edge id="-528941516" from="5139072682" to="5139072823" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941516"/>
+        </lane>
+    </edge>
+    <edge id="-528941517" from="5139072670" to="5139072823" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941517"/>
+        </lane>
+    </edge>
+    <edge id="-528941518#1" from="5139072823" to="5139072671" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941518"/>
+        </lane>
+    </edge>
+    <edge id="-528941519#0" from="5139072676" to="5139072675" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941519"/>
+        </lane>
+    </edge>
+    <edge id="-528941520" from="5139072676" to="5139072608" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1419.70,1150.88 1450.76,1066.50 1475.51,1046.34 1479.21,1043.33 1527.21,1009.88" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941520"/>
+        </lane>
+        <param key="origTo" value="5139072678"/>
+    </edge>
+    <edge id="-528941521#0" from="5139072671" to="5139072680" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+    </edge>
+    <edge id="-528941521#1" from="5139072675" to="5139072671" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+    </edge>
+    <edge id="-528941521#2" from="5139072679" to="5139072675" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+        <param key="origFrom" value="5139072679"/>
+    </edge>
+    <edge id="-528941522#0" from="5139072656" to="5139072697" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#1" from="5139072649" to="5139072656" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#2" from="5139072647" to="5139072649" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#3" from="5139072644" to="5139072647" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#4" from="5139072683" to="5139072644" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#5" from="5139072669" to="5139072683" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941522#6" from="5139072682" to="5139072669" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#0" from="5139072625" to="5139072980" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#1" from="5139072689" to="5139072625" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#2" from="5139072829" to="5139072689" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#3" from="5139072642" to="5139072829" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#4" from="5139072701" to="5139072642" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#5" from="5139072683" to="5139072701" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941523#6" from="k_0" to="5139072683" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="-528941524#0" from="5139072686" to="5139072981" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2092.74,1197.36 2107.68,1194.86 2198.81,1193.74" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="-528941524#1" from="5139072622" to="5139072686" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="-528941524#2" from="5139072695" to="5139072622" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="-528941525#0" from="5139072695" to="cluster_5139072691_6588883683" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1944.51,1252.97 1936.18,1222.31 1931.21,1206.75 1920.91,1188.12" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+        <param key="origTo" value="5139072691"/>
+    </edge>
+    <edge id="-528941525#1" from="5139072689" to="5139072695" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="-528941525#4" from="5139072687" to="5139072688" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="-528941525#5" from="5139072653" to="5139072687" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="-528941525#6" from="5139072698" to="5139072653" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="-528941526#0" from="5139072692" to="5139072693" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941526"/>
+        </lane>
+    </edge>
+    <edge id="-528941526#1" from="5139072614" to="5139072692" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1942.18,904.04 1928.50,932.99 1913.52,945.94 1852.41,972.76" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941526"/>
+        </lane>
+    </edge>
+    <edge id="-528941527#0" from="cluster_5139072691_6588883683" to="5139072832" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1916.23,1190.09 1850.86,1217.52" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941527"/>
+        </lane>
+        <param key="origFrom" value="6588883683"/>
+    </edge>
+    <edge id="-528941527#2" from="5139072694" to="cluster_5139072691_6588883683" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2014.40,1155.02 1920.91,1188.12" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941527"/>
+        </lane>
+        <param key="origTo" value="5139072691"/>
+    </edge>
+    <edge id="-528941528" from="5139072695" to="5139072831" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941528"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#0" from="10123562167" to="5139072696" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#1" from="5139072697" to="10123562167" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#2" from="5139072699" to="5139072697" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#3" from="5139072636" to="5139072699" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#4" from="5139072825" to="5139072636" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#5" from="5139072698" to="5139072825" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1998.64,1651.94 1882.25,1668.25" spreadType="center" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941529#6" from="5139072978" to="5139072698" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#0" from="5139072702" to="5139072711" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1639.89,1338.00 1640.98,1324.98 1656.81,1259.49" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#1" from="5139072701" to="5139072702" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#2" from="5139072645" to="5139072701" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#3" from="5139072641" to="5139072645" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#4" from="5139072646" to="5139072641" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#5" from="5139072650" to="5139072646" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#6" from="5139072700" to="5139072650" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941530#7" from="5139072699" to="5139072700" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="-528941531#0" from="5139072707" to="5139072710" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1749.64,1154.64 1779.63,1219.34 1779.37,1247.55 1776.20,1282.21" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941531"/>
+        </lane>
+    </edge>
+    <edge id="-528941531#1" from="5139072706" to="5139072707" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941531"/>
+        </lane>
+    </edge>
+    <edge id="-528941532#0" from="5139072710" to="5139072830" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="-528941532#1" from="5139072712" to="5139072710" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="-528941532#2" from="5139072711" to="5139072712" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="-528941533" from="5139072717" to="5139072712" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1693.45,1179.93 1715.47,1228.48 1717.03,1236.03 1715.26,1267.78" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941533"/>
+        </lane>
+    </edge>
+    <edge id="-528941534#0" from="5139072707" to="cluster_5139072716_6588891687" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1749.64,1154.64 1804.86,1128.35" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+        <param key="origTo" value="5139072716"/>
+    </edge>
+    <edge id="-528941534#1" from="5139072717" to="5139072707" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+    </edge>
+    <edge id="-528941534#2" from="5139072715" to="5139072717" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+    </edge>
+    <edge id="-528941535#0" from="5139072706" to="5139072719" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941535"/>
+        </lane>
+    </edge>
+    <edge id="-528941535#1" from="5139072842" to="5139072706" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941535"/>
+        </lane>
+    </edge>
+    <edge id="-528941536#0" from="5139072824" to="5139072840" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="-528941536#1" from="5139072705" to="5139072824" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="-528941536#2" from="5139072823" to="5139072705" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="-528941537#0" from="5139072693" to="5139072849" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1757.03,1019.06 1748.61,1004.96 1739.03,996.23 1724.60,989.98 1719.79,989.16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+    </edge>
+    <edge id="-528941537#1" from="5139072719" to="5139072693" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+    </edge>
+    <edge id="-528941537#2" from="cluster_5139072716_6588891687" to="5139072719" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1801.51,1120.75 1768.06,1044.85" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+        <param key="origFrom" value="6588891687"/>
+    </edge>
+    <edge id="-528941537#4" from="5139072832" to="cluster_5139072716_6588891687" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1850.86,1217.52 1804.86,1128.35" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+        <param key="origTo" value="5139072716"/>
+    </edge>
+    <edge id="-528941538" from="5139072842" to="5139072840" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941538"/>
+        </lane>
+    </edge>
+    <edge id="-528941542#1" from="5139072849" to="6588966608" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1719.79,989.16 1690.37,955.75 1670.31,932.88" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941542"/>
+        </lane>
+    </edge>
+    <edge id="-528941546#0" from="10123562107" to="5139072978" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="-528941546#1" from="10123562103" to="10123562107" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2245.48,1593.16 2217.91,1612.65 2189.00,1622.98" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="-528941546#2" from="5139072972" to="10123562103" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="-528941546#3" from="5139072970" to="5139072972" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2442.54,1471.71 2381.38,1498.81 2317.37,1542.35" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#10" from="5139072980" to="5139072979" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#11" from="5139072981" to="5139072980" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#12" from="10123562187" to="5139072981" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#13" from="5139072984" to="10123562187" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2198.98,1062.58 2205.33,1092.11 2206.55,1111.88 2204.43,1143.07 2204.28,1144.47" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#2" from="cluster_10123562128_5139072976" to="cluster_10123562116_5139072975" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2132.05,1937.61 2136.69,1977.91" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+        <param key="origFrom" value="10123562128"/>
+        <param key="origTo" value="10123562116"/>
+    </edge>
+    <edge id="-528941547#4" from="5139072977" to="cluster_10123562128_5139072976" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2129.80,1840.45 2129.63,1916.53" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+        <param key="origTo" value="5139072976"/>
+    </edge>
+    <edge id="-528941547#5" from="5139072978" to="5139072977" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#6" from="5139072629" to="5139072978" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#7" from="5139072652" to="5139072629" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#8" from="10123562175" to="5139072652" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-528941547#9" from="5139072979" to="10123562175" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="-701598818" from="cluster_5139072691_6588883683" to="6588891688" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1916.23,1190.09 1908.93,1169.16 1899.64,1145.80 1894.73,1118.36 1890.34,1082.24" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701598818"/>
+        </lane>
+        <param key="origFrom" value="6588883683"/>
+    </edge>
+    <edge id="-701598819" from="6588891688" to="5139072692" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1890.34,1082.24 1883.14,1052.95 1875.72,1023.67 1865.07,997.79 1852.41,972.76" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701598819"/>
+        </lane>
+    </edge>
+    <edge id="-701604648#0" from="5139072715" to="5139072705" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1631.72,1207.84 1583.55,1132.67 1566.04,1107.53" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604648"/>
+        </lane>
+    </edge>
+    <edge id="-701604648#1" from="5139072711" to="5139072715" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604648"/>
+        </lane>
+    </edge>
+    <edge id="-701604651" from="5139072824" to="5139072679" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604651"/>
+        </lane>
+        <param key="origTo" value="5139072679"/>
+    </edge>
+    <edge id="-701604652" from="5139072680" to="1124808872" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604652"/>
+        </lane>
+    </edge>
+    <edge id="-701604653" from="cluster_5139072716_6588891687" to="6588891688" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1801.51,1120.75 1890.34,1082.24" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604653"/>
+        </lane>
+        <param key="origFrom" value="6588891687"/>
+    </edge>
+    <edge id="-701604654#0" from="10119704963" to="5139072611" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1824.42,912.97 1881.86,874.77" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604654"/>
+        </lane>
+    </edge>
+    <edge id="-701604654#1" from="5139072849" to="10119704963" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1719.79,989.16 1789.23,936.62 1824.42,912.97" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604654"/>
+        </lane>
+    </edge>
+    <edge id="-701604655" from="5139072849" to="5139072840" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604655"/>
+        </lane>
+    </edge>
+    <edge id="-701604656" from="5139072717" to="5139072842" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1693.45,1179.93 1653.51,1097.92 1678.34,1086.63" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604656 528941535"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#0" from="5139072831" to="5139072832" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#1" from="5139072830" to="5139072831" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#2" from="5139072829" to="5139072830" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#5" from="5139072827" to="5139072828" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#6" from="5139072826" to="5139072827" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-701604657#7" from="5139072825" to="5139072826" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#0" from="10123562189" to="5139072984" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2299.73,1131.14 2280.28,1089.51 2264.98,1076.41 2233.82,1068.02 2208.17,1061.26 2198.98,1062.58" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#1" from="10123562182" to="10123562189" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#2" from="10123562174" to="10123562182" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2391.88,1343.46 2349.93,1238.62 2348.12,1234.75" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#5" from="10119704949" to="5139072970" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2547.02,1735.60 2478.68,1534.51 2442.54,1471.71" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#6" from="10119704950" to="10119704949" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2570.45,1796.41 2561.13,1777.13 2547.02,1735.60" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-903732622#7" from="10123562119" to="10119704950" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="-97087715#0" from="5139072696" to="1124809896" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1544.06,1748.79 1539.69,1736.82 1522.39,1699.31" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="-97087715#1" from="10123562154" to="5139072696" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1559.68,1904.26 1556.94,1827.12 1557.77,1795.24 1551.11,1768.07 1544.06,1748.79" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="-97087715#2" from="1124809830" to="10123562154" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1572.49,2018.01 1567.15,1989.74 1559.98,1912.73 1559.68,1904.26" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="-97087740#10" from="5139072648" to="1124809887" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="-97087740#11" from="1124809896" to="5139072648" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="-97087740#9" from="1124809887" to="cluster_5139072643_5139072852" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1481.89,1597.07 1467.12,1559.02" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+        <param key="origTo" value="5139072852"/>
+    </edge>
+    <edge id="-E0" from="k_0" to="cluster_5139072643_5139072852" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-E10" from="5139072614" to="5139072694" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E11" from="5139072838" to="5139072840" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E13" from="5139072711" to="5139072670" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E14" from="5139072692" to="10119704963" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E18" from="J4" to="1124808872" priority="3" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-E19" from="5139072608" to="5139072679" priority="3" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="-E20" from="10123562110" to="10123562107" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E21" from="10123562111" to="10123562115" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E22" from="10123562103" to="10123562106" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E23" from="10123562115" to="10123562112" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E24" from="10123562137" to="10123562150" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E25" from="10123562129" to="cluster_10123562149_10123562170" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E26" from="10123562120" to="10123562137" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E27" from="10123562167" to="cluster_10123562149_10123562170" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E28" from="5139072697" to="10123562129" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E29" from="5139072640" to="5139072642" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E3" from="J2" to="cluster_5139072616_6588911164" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E30" from="5139072828" to="5139072829" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E31" from="5139072689" to="5139072688" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E4" from="J7" to="J4" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E5" from="J2" to="5139072984" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E6" from="6588966608" to="5139072838" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E8" from="10123562174" to="5139072970" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-E9" from="5139072676" to="J7" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="1105900478" from="5139072825" to="10119704925" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900478"/>
+        </lane>
+    </edge>
+    <edge id="1105900479#0" from="5139072977" to="10123562110" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2129.80,1840.45 2167.17,1842.03 2225.95,1836.98" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="1105900479#1" from="10123562110" to="10123562111" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="1105900479#2" from="10123562111" to="10123562106" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2239.02,1835.87 2248.02,1835.09 2297.60,1827.12 2336.19,1812.90" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="1105900479#3" from="10123562106" to="10119704929" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900479"/>
+        </lane>
+    </edge>
+    <edge id="1105900480#0" from="5139072972" to="10119704929" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2317.37,1542.35 2347.09,1585.03 2390.65,1647.15 2413.45,1690.98 2444.99,1772.79" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="1105900480#1" from="10119704929" to="10119704951" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="1105900480#2" from="10119704951" to="10119704933" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900480"/>
+        </lane>
+    </edge>
+    <edge id="1105900484" from="10119704949" to="10119704929" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900484"/>
+        </lane>
+    </edge>
+    <edge id="1105900485" from="10119704950" to="10119704951" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900485"/>
+        </lane>
+    </edge>
+    <edge id="1105900487" from="5139072611" to="cluster_5139072616_6588911164" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1881.86,874.77 1912.44,875.87 1934.90,875.71 1950.01,869.55 1976.38,856.69" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1105900487"/>
+        </lane>
+        <param key="origTo" value="6588911164"/>
+    </edge>
+    <edge id="1106301514#0" from="10119704951" to="10123562115" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2467.97,1832.38 2423.20,1848.91 2344.01,1878.27 2248.93,1902.71" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301514"/>
+        </lane>
+    </edge>
+    <edge id="1106301514#1" from="10123562115" to="cluster_10123562128_5139072976" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2248.93,1902.71 2129.63,1916.53" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301514"/>
+        </lane>
+        <param key="origTo" value="5139072976"/>
+    </edge>
+    <edge id="1106301515#0" from="cluster_10123562116_5139072975" to="10123562112" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2136.69,1977.91 2211.70,1968.12 2257.20,1958.57" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+        <param key="origFrom" value="10123562116"/>
+    </edge>
+    <edge id="1106301515#1" from="10123562112" to="10119704933" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2257.20,1958.57 2335.49,1943.08 2487.18,1882.21" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+    </edge>
+    <edge id="1106301515#2" from="10119704933" to="10123562119" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301515"/>
+        </lane>
+    </edge>
+    <edge id="1106301516" from="10123562120" to="cluster_10123562116_5139072975" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1878.38,2030.01 1927.40,2013.45 1978.62,2005.56 2074.26,2004.29 2139.29,2000.42" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301516"/>
+        </lane>
+        <param key="origTo" value="5139072975"/>
+    </edge>
+    <edge id="1106301518#0" from="10123562129" to="10119704925" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1745.86,1854.25 1833.10,1825.66 1903.94,1806.55" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301518"/>
+        </lane>
+    </edge>
+    <edge id="1106301518#1" from="10119704925" to="5139072977" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1903.94,1806.55 1938.74,1813.11 2009.05,1828.33 2091.45,1841.16 2129.80,1840.45" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301518"/>
+        </lane>
+    </edge>
+    <edge id="1106301519#2" from="10123562129" to="10123562137" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301519"/>
+        </lane>
+    </edge>
+    <edge id="1106301520#2" from="10123562150" to="10123562140" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301520"/>
+        </lane>
+    </edge>
+    <edge id="1106301522#0" from="1124809830" to="10123562140" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1572.49,2018.01 1588.21,2022.64 1607.96,2033.05 1651.94,2062.04" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301522"/>
+        </lane>
+    </edge>
+    <edge id="1106301524#0" from="cluster_10123562149_10123562170" to="10123562150" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1630.69,1900.80 1711.79,2002.00" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301524"/>
+        </lane>
+        <param key="origFrom" value="10123562149"/>
+    </edge>
+    <edge id="1106301525#0" from="10123562154" to="cluster_10123562149_10123562170" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1559.68,1904.26 1585.73,1904.70 1613.58,1904.55 1630.69,1900.80" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301525"/>
+        </lane>
+        <param key="origTo" value="10123562149"/>
+    </edge>
+    <edge id="1106301530#0" from="5139072979" to="cluster_10123562177_10123562179" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2173.04,1374.80 2216.20,1367.24 2242.72,1362.64" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+        <param key="origTo" value="10123562177"/>
+    </edge>
+    <edge id="1106301530#2" from="cluster_10123562177_10123562179" to="10123562172" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2252.67,1360.92 2312.58,1350.53" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+        <param key="origFrom" value="10123562179"/>
+    </edge>
+    <edge id="1106301530#3" from="10123562172" to="10123562174" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2312.58,1350.53 2361.07,1344.63 2391.88,1343.46" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301530"/>
+        </lane>
+    </edge>
+    <edge id="1106301531#0" from="10123562175" to="10123562178" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301531"/>
+        </lane>
+    </edge>
+    <edge id="1106301531#1" from="10123562178" to="10123562176" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301531"/>
+        </lane>
+    </edge>
+    <edge id="1106301532" from="cluster_10123562177_10123562179" to="10123562178" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2242.72,1362.64 2254.90,1433.15" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301532"/>
+        </lane>
+        <param key="origFrom" value="10123562177"/>
+    </edge>
+    <edge id="1106301533" from="cluster_10123562177_10123562179" to="10123562180" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2252.67,1360.92 2237.47,1254.85" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301533"/>
+        </lane>
+        <param key="origFrom" value="10123562179"/>
+    </edge>
+    <edge id="1106301534#0" from="5139072980" to="10123562180" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="1106301534#1" from="10123562180" to="10123562184" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="1106301534#2" from="10123562184" to="10123562183" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="1106301534#3" from="10123562183" to="10123562182" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2293.74,1244.72 2308.11,1242.14 2348.12,1234.75" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301534"/>
+        </lane>
+    </edge>
+    <edge id="1106301535" from="10123562183" to="10123562172" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301535"/>
+        </lane>
+    </edge>
+    <edge id="1106301536" from="10123562184" to="10123562185" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301536"/>
+        </lane>
+    </edge>
+    <edge id="1106301537#0" from="10123562187" to="10123562185" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2204.28,1144.47 2219.75,1144.78 2254.43,1140.54" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301537"/>
+        </lane>
+    </edge>
+    <edge id="1106301537#1" from="10123562185" to="10123562189" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="1106301537"/>
+        </lane>
+    </edge>
+    <edge id="528941499#0" from="5139072838" to="5139072608" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941499"/>
+        </lane>
+        <param key="origTo" value="5139072608"/>
+    </edge>
+    <edge id="528941500#2" from="cluster_5139072616_6588911164" to="5139072614" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1976.38,856.69 1961.39,870.55 1950.39,890.27 1942.18,904.04" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941500"/>
+        </lane>
+        <param key="origFrom" value="6588911164"/>
+    </edge>
+    <edge id="528941500#3" from="5139072614" to="5139072611" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1942.18,904.04 1918.63,887.94 1895.30,876.84 1881.86,874.77" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941500"/>
+        </lane>
+    </edge>
+    <edge id="528941501#0" from="5139072622" to="5139072694" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941501"/>
+        </lane>
+    </edge>
+    <edge id="528941502#0" from="5139072627" to="5139072626" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="528941502#1" from="5139072626" to="5139072625" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="528941502#2" from="5139072625" to="5139072686" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2100.44,1282.26 2097.90,1224.06 2094.55,1206.22 2092.74,1197.36" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941502"/>
+        </lane>
+    </edge>
+    <edge id="528941503" from="5139072629" to="5139072653" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2160.91,1561.00 2044.74,1566.51 1989.06,1577.05" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941503"/>
+        </lane>
+    </edge>
+    <edge id="528941504#1" from="5139072670" to="5139072715" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1583.18,1258.19 1585.11,1250.26 1588.19,1243.94 1631.72,1207.84" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941504"/>
+        </lane>
+    </edge>
+    <edge id="528941505#0" from="5139072636" to="5139072654" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941505"/>
+        </lane>
+    </edge>
+    <edge id="528941505#1" from="5139072654" to="5139072651" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1811.00,1608.26 1810.56,1605.48 1801.01,1545.15" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941505"/>
+        </lane>
+    </edge>
+    <edge id="528941507#0" from="5139072641" to="5139072640" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941507"/>
+        </lane>
+    </edge>
+    <edge id="528941507#1" from="5139072640" to="5139072828" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941507"/>
+        </lane>
+    </edge>
+    <edge id="528941508#2" from="5139072640" to="5139072651" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941508"/>
+        </lane>
+    </edge>
+    <edge id="528941509#0" from="5139072645" to="5139072644" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941509"/>
+        </lane>
+    </edge>
+    <edge id="528941509#1" from="5139072644" to="cluster_5139072643_5139072852" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1573.91,1501.88 1462.01,1544.41" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941509"/>
+        </lane>
+        <param key="origTo" value="5139072643"/>
+    </edge>
+    <edge id="528941510#0" from="1124809887" to="5139072647" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941510"/>
+        </lane>
+    </edge>
+    <edge id="528941510#1" from="5139072647" to="5139072646" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941510"/>
+        </lane>
+    </edge>
+    <edge id="528941511#0" from="5139072652" to="5139072627" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#1" from="5139072627" to="5139072687" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#2" from="5139072687" to="5139072827" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1981.89,1520.95 1946.01,1525.52 1866.43,1535.67" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#3" from="5139072827" to="5139072651" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1866.43,1535.67 1806.12,1544.46 1801.01,1545.15" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#4" from="5139072651" to="5139072650" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#5" from="5139072650" to="5139072649" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941511#6" from="5139072649" to="5139072648" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941511"/>
+        </lane>
+    </edge>
+    <edge id="528941512#0" from="5139072828" to="5139072688" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="528941512#1" from="5139072688" to="5139072626" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="528941512#2" from="5139072626" to="5139072979" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941512"/>
+        </lane>
+    </edge>
+    <edge id="528941513#0" from="5139072653" to="5139072826" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="528941513#1" from="5139072826" to="5139072654" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="528941513#2" from="5139072654" to="5139072700" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="528941513#3" from="5139072700" to="5139072656" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="528941513#4" from="5139072656" to="1124809896" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1641.54,1653.51 1535.74,1696.87 1522.39,1699.31" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941513"/>
+        </lane>
+    </edge>
+    <edge id="528941515#0" from="5139072702" to="5139072635" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+    </edge>
+    <edge id="528941515#1" from="5139072635" to="5139072669" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+    </edge>
+    <edge id="528941517" from="5139072823" to="5139072670" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941517"/>
+        </lane>
+    </edge>
+    <edge id="528941518#1" from="5139072671" to="5139072823" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941518"/>
+        </lane>
+    </edge>
+    <edge id="528941519#0" from="5139072675" to="5139072676" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941519"/>
+        </lane>
+    </edge>
+    <edge id="528941520" from="5139072608" to="5139072676" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1527.21,1009.88 1479.21,1043.33 1475.51,1046.34 1450.76,1066.50 1419.70,1150.88" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941520"/>
+        </lane>
+        <param key="origFrom" value="5139072678"/>
+    </edge>
+    <edge id="528941521#0" from="5139072680" to="5139072671" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+    </edge>
+    <edge id="528941521#1" from="5139072671" to="5139072675" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+    </edge>
+    <edge id="528941521#2" from="5139072675" to="5139072679" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941521"/>
+        </lane>
+        <param key="origTo" value="5139072679"/>
+    </edge>
+    <edge id="528941522#0" from="5139072697" to="5139072656" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#1" from="5139072656" to="5139072649" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#2" from="5139072649" to="5139072647" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#3" from="5139072647" to="5139072644" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#4" from="5139072644" to="5139072683" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#5" from="5139072683" to="5139072669" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941522#6" from="5139072669" to="5139072682" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941522"/>
+        </lane>
+    </edge>
+    <edge id="528941523#0" from="5139072980" to="5139072625" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#1" from="5139072625" to="5139072689" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#2" from="5139072689" to="5139072829" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#3" from="5139072829" to="5139072642" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#4" from="5139072642" to="5139072701" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#5" from="5139072701" to="5139072683" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941523#6" from="5139072683" to="k_0" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941523"/>
+        </lane>
+    </edge>
+    <edge id="528941524#0" from="5139072981" to="5139072686" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2198.81,1193.74 2107.68,1194.86 2092.74,1197.36" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="528941524#1" from="5139072686" to="5139072622" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="528941524#2" from="5139072622" to="5139072695" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941524"/>
+        </lane>
+    </edge>
+    <edge id="528941525#0" from="cluster_5139072691_6588883683" to="5139072695" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1920.91,1188.12 1931.21,1206.75 1936.18,1222.31 1944.51,1252.97" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+        <param key="origFrom" value="5139072691"/>
+    </edge>
+    <edge id="528941525#1" from="5139072695" to="5139072689" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="528941525#4" from="5139072688" to="5139072687" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="528941525#5" from="5139072687" to="5139072653" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="528941525#6" from="5139072653" to="5139072698" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941525"/>
+        </lane>
+    </edge>
+    <edge id="528941526#0" from="5139072693" to="5139072692" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941526"/>
+        </lane>
+    </edge>
+    <edge id="528941526#1" from="5139072692" to="5139072614" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1852.41,972.76 1913.52,945.94 1928.50,932.99 1942.18,904.04" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941526"/>
+        </lane>
+    </edge>
+    <edge id="528941527#0" from="5139072832" to="cluster_5139072691_6588883683" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1850.86,1217.52 1916.23,1190.09" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941527"/>
+        </lane>
+        <param key="origTo" value="6588883683"/>
+    </edge>
+    <edge id="528941527#2" from="cluster_5139072691_6588883683" to="5139072694" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1920.91,1188.12 2014.40,1155.02" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941527"/>
+        </lane>
+        <param key="origFrom" value="5139072691"/>
+    </edge>
+    <edge id="528941528" from="5139072831" to="5139072695" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941528"/>
+        </lane>
+    </edge>
+    <edge id="528941529#0" from="5139072696" to="10123562167" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#1" from="10123562167" to="5139072697" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#2" from="5139072697" to="5139072699" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#3" from="5139072699" to="5139072636" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#4" from="5139072636" to="5139072825" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#5" from="5139072825" to="5139072698" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941529#6" from="5139072698" to="5139072978" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941529"/>
+        </lane>
+    </edge>
+    <edge id="528941530#0" from="5139072711" to="5139072702" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1656.81,1259.49 1640.98,1324.98 1639.89,1338.00" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#1" from="5139072702" to="5139072701" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#2" from="5139072701" to="5139072645" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#3" from="5139072645" to="5139072641" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#4" from="5139072641" to="5139072646" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#5" from="5139072646" to="5139072650" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#6" from="5139072650" to="5139072700" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941530#7" from="5139072700" to="5139072699" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941530"/>
+        </lane>
+    </edge>
+    <edge id="528941531#0" from="5139072710" to="5139072707" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1776.20,1282.21 1779.37,1247.55 1779.63,1219.34 1749.64,1154.64" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941531"/>
+        </lane>
+    </edge>
+    <edge id="528941531#1" from="5139072707" to="5139072706" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941531"/>
+        </lane>
+    </edge>
+    <edge id="528941532#0" from="5139072830" to="5139072710" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="528941532#1" from="5139072710" to="5139072712" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="528941532#2" from="5139072712" to="5139072711" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941532"/>
+        </lane>
+    </edge>
+    <edge id="528941533" from="5139072712" to="5139072717" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1715.26,1267.78 1717.03,1236.03 1715.47,1228.48 1693.45,1179.93" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941533"/>
+        </lane>
+    </edge>
+    <edge id="528941534#0" from="cluster_5139072716_6588891687" to="5139072707" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1804.86,1128.35 1749.64,1154.64" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+        <param key="origFrom" value="5139072716"/>
+    </edge>
+    <edge id="528941534#1" from="5139072707" to="5139072717" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+    </edge>
+    <edge id="528941534#2" from="5139072717" to="5139072715" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941534"/>
+        </lane>
+    </edge>
+    <edge id="528941535#0" from="5139072719" to="5139072706" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941535"/>
+        </lane>
+    </edge>
+    <edge id="528941535#1" from="5139072706" to="5139072842" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941535"/>
+        </lane>
+    </edge>
+    <edge id="528941535#2" from="5139072842" to="5139072717" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1678.34,1086.63 1653.51,1097.92 1693.45,1179.93" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941535 701604656"/>
+        </lane>
+    </edge>
+    <edge id="528941536#0" from="5139072840" to="5139072824" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="528941536#1" from="5139072824" to="5139072705" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="528941536#2" from="5139072705" to="5139072823" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941536"/>
+        </lane>
+    </edge>
+    <edge id="528941537#0" from="5139072849" to="5139072693" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1719.79,989.16 1724.60,989.98 1739.03,996.23 1748.61,1004.96 1757.03,1019.06" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+    </edge>
+    <edge id="528941537#1" from="5139072693" to="5139072719" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+    </edge>
+    <edge id="528941537#2" from="5139072719" to="cluster_5139072716_6588891687" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1768.06,1044.85 1801.51,1120.75" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+        <param key="origTo" value="6588891687"/>
+    </edge>
+    <edge id="528941537#4" from="cluster_5139072716_6588891687" to="5139072832" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1804.86,1128.35 1850.86,1217.52" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941537"/>
+        </lane>
+        <param key="origFrom" value="5139072716"/>
+    </edge>
+    <edge id="528941538" from="5139072840" to="5139072842" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941538"/>
+        </lane>
+    </edge>
+    <edge id="528941542#1" from="6588966608" to="5139072849" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1670.31,932.88 1690.37,955.75 1719.79,989.16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941542"/>
+        </lane>
+    </edge>
+    <edge id="528941546#0" from="5139072978" to="10123562107" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="528941546#1" from="10123562107" to="10123562103" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2189.00,1622.98 2217.91,1612.65 2245.48,1593.16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="528941546#2" from="10123562103" to="5139072972" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="528941546#3" from="5139072972" to="5139072970" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2317.37,1542.35 2381.38,1498.81 2442.54,1471.71" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941546"/>
+        </lane>
+    </edge>
+    <edge id="528941547#10" from="5139072979" to="5139072980" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#11" from="5139072980" to="5139072981" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#12" from="5139072981" to="10123562187" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#13" from="10123562187" to="5139072984" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2204.28,1144.47 2204.43,1143.07 2206.55,1111.88 2205.33,1092.11 2198.98,1062.58" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#2" from="cluster_10123562116_5139072975" to="cluster_10123562128_5139072976" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2136.69,1977.91 2132.05,1937.61" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+        <param key="origFrom" value="10123562116"/>
+        <param key="origTo" value="10123562128"/>
+    </edge>
+    <edge id="528941547#4" from="cluster_10123562128_5139072976" to="5139072977" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="2129.63,1916.53 2129.80,1840.45" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+        <param key="origFrom" value="5139072976"/>
+    </edge>
+    <edge id="528941547#5" from="5139072977" to="5139072978" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#6" from="5139072978" to="5139072629" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#7" from="5139072629" to="5139072652" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#8" from="5139072652" to="10123562175" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="528941547#9" from="10123562175" to="5139072979" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941547"/>
+        </lane>
+    </edge>
+    <edge id="701598818" from="6588891688" to="cluster_5139072691_6588883683" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1890.34,1082.24 1894.73,1118.36 1899.64,1145.80 1908.93,1169.16 1916.23,1190.09" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701598818"/>
+        </lane>
+        <param key="origTo" value="6588883683"/>
+    </edge>
+    <edge id="701598819" from="5139072692" to="6588891688" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1852.41,972.76 1865.07,997.79 1875.72,1023.67 1883.14,1052.95 1890.34,1082.24" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701598819"/>
+        </lane>
+    </edge>
+    <edge id="701604648#0" from="5139072705" to="5139072715" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1566.04,1107.53 1583.61,1132.82 1631.72,1207.84" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604648"/>
+        </lane>
+    </edge>
+    <edge id="701604648#1" from="5139072715" to="5139072711" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604648"/>
+        </lane>
+    </edge>
+    <edge id="701604651" from="5139072679" to="5139072824" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604651"/>
+        </lane>
+        <param key="origFrom" value="5139072679"/>
+    </edge>
+    <edge id="701604652" from="1124808872" to="5139072680" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604652"/>
+        </lane>
+    </edge>
+    <edge id="701604653" from="6588891688" to="cluster_5139072716_6588891687" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1890.34,1082.24 1801.51,1120.75" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604653"/>
+        </lane>
+        <param key="origTo" value="6588891687"/>
+    </edge>
+    <edge id="701604654#0" from="5139072611" to="10119704963" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1881.86,874.77 1824.42,912.97" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604654"/>
+        </lane>
+    </edge>
+    <edge id="701604654#1" from="10119704963" to="5139072849" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1824.42,912.97 1789.23,936.62 1719.79,989.16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604654"/>
+        </lane>
+    </edge>
+    <edge id="701604655" from="5139072840" to="5139072849" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604655"/>
+        </lane>
+    </edge>
+    <edge id="701604657#0" from="5139072832" to="5139072831" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="701604657#1" from="5139072831" to="5139072830" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="701604657#2" from="5139072830" to="5139072829" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="701604657#5" from="5139072828" to="5139072827" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="701604657#6" from="5139072827" to="5139072826" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="701604657#7" from="5139072826" to="5139072825" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="701604657"/>
+        </lane>
+    </edge>
+    <edge id="903732622#0" from="5139072984" to="10123562189" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2198.98,1062.58 2208.17,1061.26 2233.82,1068.02 2264.98,1076.41 2280.28,1089.51 2299.73,1131.14" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="903732622#1" from="10123562189" to="10123562182" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="903732622#2" from="10123562182" to="10123562174" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2348.12,1234.75 2349.93,1238.62 2391.88,1343.46" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="903732622#5" from="5139072970" to="10119704949" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2442.54,1471.71 2478.68,1534.51 2547.02,1735.60" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="903732622#6" from="10119704949" to="10119704950" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" shape="2547.02,1735.60 2561.13,1777.13 2570.45,1796.41" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="903732622#7" from="10119704950" to="10123562119" priority="4" type="highway.unclassified" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="903732622"/>
+        </lane>
+    </edge>
+    <edge id="97087715#0" from="1124809896" to="5139072696" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1522.39,1699.31 1539.69,1736.82 1544.06,1748.79" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="97087715#1" from="5139072696" to="10123562154" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1544.06,1748.79 1551.11,1768.07 1557.77,1795.24 1556.94,1827.12 1559.68,1904.26" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="97087715#2" from="10123562154" to="1124809830" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1559.68,1904.26 1559.98,1912.73 1567.15,1989.74 1572.49,2018.01" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087715"/>
+        </lane>
+    </edge>
+    <edge id="97087740#10" from="1124809887" to="5139072648" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="97087740#11" from="5139072648" to="1124809896" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="97087740#2" from="1124808872" to="10119705062" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1367.48,1310.88 1378.47,1335.46 1386.55,1354.92 1388.47,1359.57" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="97087740#3" from="10119705062" to="cluster_10119705105_10119705107_1124809771" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1388.47,1359.57 1392.57,1369.43 1415.64,1424.98" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+        <param key="origTo" value="1124809771"/>
+    </edge>
+    <edge id="97087740#9" from="cluster_5139072643_5139072852" to="1124809887" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1467.12,1559.02 1481.89,1597.07" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+        <param key="origFrom" value="5139072852"/>
+    </edge>
+    <edge id="BIM" from="5139072647" to="1124809887" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941510"/>
+        </lane>
+    </edge>
+    <edge id="BKapi" from="k_0" to="cluster_10119705105_10119705107_1124809771" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="CarsimAVM" from="cluster_5139072643_5139072852" to="k_0" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E1" from="cluster_10119705105_10119705107_1124809771" to="k_0" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="E10" from="5139072694" to="5139072614" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E11" from="5139072840" to="5139072838" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E13" from="5139072670" to="5139072711" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E14" from="10119704963" to="5139072692" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E19" from="5139072679" to="5139072608" priority="3" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="E2" from="10123562176" to="J1" priority="10" type="highway.tertiary" numLanes="2" speed="13.89" spreadType="center" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E20" from="10123562107" to="10123562110" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E21" from="10123562115" to="10123562111" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E22" from="10123562106" to="10123562103" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E23" from="10123562112" to="10123562115" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E24" from="10123562150" to="10123562137" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E25" from="cluster_10123562149_10123562170" to="10123562129" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E26" from="10123562137" to="10123562120" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E27" from="cluster_10123562149_10123562170" to="10123562167" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E28" from="10123562129" to="5139072697" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E29" from="5139072642" to="5139072640" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E3" from="cluster_5139072616_6588911164" to="J2" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E30" from="5139072829" to="5139072828" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E31" from="5139072688" to="5139072689" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E5" from="5139072984" to="J2" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E6" from="5139072838" to="6588966608" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E7" from="10119705062" to="5139072682" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E8" from="5139072970" to="10123562174" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="E9" from="J7" to="5139072676" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="EfsaneKokorec" from="10119705062" to="1124808872" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1388.47,1359.57 1386.55,1354.92 1378.47,1335.46 1367.48,1310.88" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+    </edge>
+    <edge id="Isik_Bufe" from="J4" to="J7" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="Kajun" from="1124808872" to="J4" priority="3" type="highway.residential" numLanes="1" speed="13.89"/>
+    <edge id="Park" from="cluster_10119705105_10119705107_1124809771" to="10119705062" name="Yurtkur Cd." priority="10" type="highway.tertiary" numLanes="1" speed="13.89" shape="1415.64,1424.98 1392.57,1369.43 1388.47,1359.57" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="97087740"/>
+        </lane>
+        <param key="origFrom" value="1124809771"/>
+    </edge>
+    <edge id="PegemAkademi" from="5139072635" to="5139072670" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1573.37,1365.97 1561.45,1335.32 1580.30,1281.49 1583.18,1258.19" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941504"/>
+        </lane>
+    </edge>
+    <edge id="PizzaArt" from="5139072669" to="cluster_10119705105_10119705107_1124809771" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1520.00,1388.41 1415.64,1424.98" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941515"/>
+        </lane>
+        <param key="origTo" value="1124809771"/>
+    </edge>
+    <edge id="SeverseDoner" from="5139072823" to="5139072682" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="528941516"/>
+        </lane>
+    </edge>
+    <edge id="Xtreme" from="5139072682" to="10119705062" priority="3" type="highway.residential" numLanes="1" speed="13.89" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+</edges>
