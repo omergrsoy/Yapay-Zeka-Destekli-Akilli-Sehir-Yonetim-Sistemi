@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-29 00:20:11 by Eclipse SUMO netedit-CBSGM Version 3984794750
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="dolmus_0" name="dolmus_0" lane="-97087715#0_0" startPos="5.58" endPos="15.58"/>
+    <busStop id="dolmus_1" name="dolmus_1" lane="-528941529#0_0" startPos="50.06" endPos="60.06"/>
+    <busStop id="dolmus_2" name="dolmus_2" lane="Kajun_0" startPos="14.03" endPos="24.03"/>
+    <parkingArea id="taksi_0" name="taksi_0" lane="-E4_0" startPos="77.49" endPos="87.49" roadsideCapacity="5"/>
+    <parkingArea id="taksi_1" name="taksi_1" lane="-E4_0" startPos="5.98" endPos="15.98" roadsideCapacity="5"/>
+    <parkingArea id="taksi_2" name="taksi_2" lane="528941521#1_0" startPos="19.82" endPos="29.82" roadsideCapacity="5"/>
+    <parkingArea id="taksi_3" name="taksi_3" lane="528941521#0_0" startPos="49.96" endPos="59.96" roadsideCapacity="5"/>
+</additional>
